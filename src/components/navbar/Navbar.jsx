@@ -47,7 +47,7 @@ const Navbar = () => {
   return (
     <div className={styles.container}>
       <Link href="/" className={styles.logo}>
-        AnujDev
+        Anuj
       </Link>
       <div className={nav ? `${styles.links} ${styles.active}` : styles.links}>
         <DarkModeToggle />
